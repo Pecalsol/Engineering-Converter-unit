@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+  background: #111827;
+  color: #E5E7EB;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #3B82F6;
+}
+
+header p {
+  font-size: 1.1rem;
+  color: #93C5FD;
+}
+
+#converter {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.card {
+  background: #1F2937;
+  padding: 25px;
+  width: 350px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 15px rgba(59, 130, 246, 0.4);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+select, input {
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+button {
+  padding: 12px;
+  border: none;
+  background: #3B82F6;
+  color: white;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #2563EB;
+}
+
+#result {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #10B981;
+}
+
+#saved {
+  width: 60%;
+  margin: 0 auto;
+}
+
+#saved h2 {
+  margin-bottom: 10px;
+  color: #FBBF24;
+}
+
+#savedList {
+  list-style: none;
+  padding-left: 0;
+}
+
+#savedList li {
+  background: #374151;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 6px;
+  font-size: 0.95rem;
+}
